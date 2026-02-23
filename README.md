@@ -1,5 +1,7 @@
 # Financial Volatility Analyzer & ETL Pipeline
 
+![Dashboard Screenshot](screenshot.png)
+
 An end-to-end Data Engineering project that automates the extraction, storage, and visualization of financial market data.
 
 The system tracks **Cryptocurrencies** (Bitcoin, Ethereum), **Stocks** (S&P 500, NASDAQ), and **Commodities** (Gold) to analyze volatility and risk across different asset classes.
@@ -79,5 +81,6 @@ python create_view.py
 ```bash
 streamlit run dashboard.py
 ```
+
 
 The dashboard will open automatically in your browser at http://localhost:8501.
